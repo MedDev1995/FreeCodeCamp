@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://images7.alphacoders.com/592/592678.jpg);
+  }
+  
+  .form {
+   width: 80%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(8, 143, 143, 0.90);
+   font-family:  'Pokemon Solid', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px;
+  }
+  
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: auto;
+    vertical-align: middle;
+    display: inline;
+  }
+  
+  input

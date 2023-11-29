@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>POKEMON Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class=form>
+    <h1 id="title">Pokémon Survey Form</h1>
+    <p id="description">A web survey made by me thank you</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name<input id="name" name="name-label" type="text" placeholder="Enter your name" required /> 
+        </label>
+        <label id="email-label">Email<input id="email" name="email" type="email" placeholder="Enter your Email address" required />
+        </label>
+        <label id="number-label">Age (optional)<input id="number" name="number" type="number" min="13" max="120" placeholder="Age" />
+        </label>
+        </fieldset>
+        <fieldset>
+      <legend>Favorite First Generation Game?
+        <label>
+        <select id="dropdown" name="game">
+          <option value="">(First Generation Games)</option>
+        <label>
+          <option value="1">Red and Green</option>
+          <option value="2">Blue</option>
+          <option value="3">Yellow</option>
+          <option value="4">Red and Blue</option>
+        </select>
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Favorite Starter Pokemon?</legend>
+        <label>
+          <input id="bulbasaur" type="radio" name="starter-pokemon" value="1" class="inline" /> Bulbasaur
+        </label>
+        <label>
+          <input id="charmander" type="radio" name="starter-pokemon" value="2" class="inline" /> Charmander
+        </label>
+        <label>
+          <input id="squirtle" type="radio" name="starter-pokemon" value="3" class="inline" /> Squirtle
+        </label>
+        </fieldset>
+        <fieldset>
+        <label>
+     <legend>Favorite Pokemon Type?</legend>
+        <label>
+          <input type="checkbox" name="Fire" value="Fire" />Fire
+          </label>
+        <label>
+          <input type="checkbox" name="Water" value="Water" />Water
+          </label>
+        <label>
+          <input type="checkbox" name="Grass" value="Grass" />Grass
+          </label>
+        <label>
+          <input type="checkbox" name="electric" value="Electric" />Electric
+          </label>
+        <label><input type="checkbox" name="Normal" value="Normal" />Normal
+        </label>
+      </label>
+      </fieldset>
+      <fieldset>
+      <legend>Do you want to be the very best?</legend>
+      <label><textarea id="question" placeholder="Like No One Ever Was..." rows="3" cols="30"></textarea>
+      </label>
+      <input type="submit" id="submit" value="Catch 'Em All" />
+      </form>
+    </div>
+  </body>
+</html>
