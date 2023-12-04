@@ -1,0 +1,43 @@
+* {
+    background-color: #F9F6F0;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  h1, h2, li, p {
+    text-align: center;
+    margin: 25px 5px 25px 5px;
+    padding: auto;
+  }
+  
+  ul {
+    display: inline;
+    justify-content: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    padding: auto;
+    display: block;
+    justify-content: center;
+  }
+  
+  .img-background {
+    background-color: white;
+    max-width: 925px;
+    max-height: 500px;
+    margin: auto;
+    padding: auto;
+  }
